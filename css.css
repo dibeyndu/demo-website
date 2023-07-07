@@ -37,7 +37,7 @@
     /* border: 2px solid black; */
     color:white;
     align-items: center;
-    background-image: url(./images/background.png), linear-gradient(45deg,rgb(8,8,8),rgb(8, 8, 8));
+    background-image: url(./images/background.png), linear-gradient(45deg,rgb(6, 6, 6),rgb(8, 8, 8));
 }
 .title{
     font-size: 55px;
@@ -55,7 +55,48 @@
     border:none;
     border-radius: 5px;
 }
-.btn:hover{
-    color: yellowgreen;
-    background-color: blue;
+.about-container{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-direction: row-reverse;
+ padding: 10px;
+}
+.about-us{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box{
+    width: 250px;
+    height: 320px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: rgb(50, 49, 49);
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+
+}
+.icon{
+    width: 100px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description1{
+    padding: 5px;
+}
+.service-container{
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.our{
+    height: 60vh;
+    background-image: url(./images/background.png),linear-gradient(45deg,rgb(40, 40, 40),rgb(8, 8, 8));
+    color: beige;
+    padding: 50px;
 }
